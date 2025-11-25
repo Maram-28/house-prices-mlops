@@ -7,9 +7,12 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Données et modèles
-data/
+# Données et modèles (ignored, but allow DVC metadata)
+data/** 
+!data/**/*.dvc
+
 models/
+
 
 # Notebooks checkpoints
 *.ipynb_checkpoints/
